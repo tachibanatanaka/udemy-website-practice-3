@@ -1,0 +1,220 @@
+body {
+  background: url(images/bg.png);
+  border-top: 5px solid #345c39;
+  font-family: "メイリオ", Meiryo;
+}
+
+div#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.box-shadow {
+}
+
+/* ========================================
+    ヘッダー用
+========================================= */
+header {
+  width: 960px;
+  height: 49px;
+  padding: 20px 0;
+  position: relative;
+}
+
+header h1 {
+  font-size: 12px;
+  color: #555555;
+  background: url(images/logo.png) no-repeat;
+  padding-left: 51px;
+  line-height: 1;
+  height: 49px;
+  float: left;
+}
+
+header h1 span {
+  font-size: 33px;
+  color: #734339;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+header nav {
+  float: right;
+  margin-top: 36px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+  margin-left: 29px;
+}
+
+header nav ul li:hover {
+  background: url(images/navbar.png) no-repeat center bottom;
+  height: 36px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #734339;
+  text-decoration: none;
+  height: 26px;
+  display: inline-block;
+}
+
+header nav ul li:hover a {
+  color: #345c39;
+  border-bottom: 4px solid #345c39;
+}
+
+div.clear {
+  clear: both;
+}
+
+header p#nav_tel {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*  */
+/*  */
+#mainimage {
+  width: 950px;
+  height: 290px;
+  /* background-color: yellow; */
+  margin: 20px 0;
+  border: 5px solid #fff;
+  margin-top: 50px;
+  box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+  /* 影を付けている */
+}
+#container {
+  display: flex;
+}
+#left {
+  width: 575px;
+  height: auto;
+  background-color: #fff;
+  margin-right: 20px;
+  box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+  padding: 10px;
+}
+#left h2 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #734339;
+  border-left: 5px solid #ba3009;
+  padding-left: 10px;
+}
+#left ul {
+  overflow: scroll;
+  width: 555px;
+  height: 145px;
+  list-style: none;
+  padding: 0;
+}
+#left span {
+  font-size: 12px;
+  font-weight: normal;
+  color: #b5b3b3;
+  margin-right: 15px;
+}
+#left li {
+  font-size: 13px;
+  font-weight: normal;
+  color: #927e7a;
+  border-bottom: 1px dotted #d0d0d0;
+  line-height: 32px;
+}
+#right {
+  width: 365px;
+  height: 198px;
+  /* background-color: pink; */
+}
+#right ul {
+  padding: 0;
+}
+#right li {
+  list-style: none;
+  list-style-position: inside;
+  margin-bottom: 20px;
+}
+#right a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #734339;
+  line-height: 60px;
+  padding-left: 140px;
+}
+#right a#contact {
+  background: url(images/contact.jpg);
+  width: 365px;
+  height: 60px;
+  display: inline-block;
+  box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+}
+#right a#blog {
+  background: url(images/blog.jpg);
+  width: 365px;
+  height: 60px;
+  display: inline-block;
+  box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #345c39;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 12px;
+}
+/*  */
+/*  */
+#heading {
+  background: url(images/title.jpg);
+  width: 958px;
+  height: 70px;
+  border: 5px solid #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  /* text-align: center; */
+  padding-left: 28px;
+  line-height: 70px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #2f5734;
+}
+#left h3 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #734339;
+  border-left: 5px solid #ba3009;
+  padding-left: 10px;
+}
+#left dl {
+  margin-top: 11px;
+}
+#left dt {
+  font-size: 15px;
+  font-weight: normal;
+  color: #734339;
+}
+#left dd {
+  font-size: 13px;
+  font-weight: normal;
+  color: #927e7a;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+#o {
+  margin-bottom: 0;
+}
